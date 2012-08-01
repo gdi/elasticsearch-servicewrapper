@@ -2,6 +2,7 @@
 
 # Since the ULIMIT_N option below doesn't seem to work for us
 ulimit -n 64000
+ulimit -l unlimited
 
 # RESOLVE and SET $ES_HOME
 
